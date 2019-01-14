@@ -1,0 +1,93 @@
+/* Assignment: unit-4-game 
+   File: style.css
+   Programmer: Sohail Zafar */
+    
+   /* Body background attributes */
+   body {
+       background-image: url("../images/BlueBackground.jpg");
+       background-size: auto;
+   }
+
+   /* Heading Box attributes */
+    #headingBox {
+        height: 65px;
+        width: 285px;
+        font-size: 36px;
+        margin: 10px;
+        background-color: brown;    
+    }
+    
+    /* Inforamtion Box attributes */
+    #infoBox {
+        width: 300px;
+        margin: 10px;
+        background-color: white;
+    }
+
+    /* Computer Number Box attributes */
+    #computerNumberBox {
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+        background-color: green;
+        margin: 5px;
+       }
+
+    /* Player Statistics Box attributes */
+    #playerStatisticsBox {
+        display: inline-block;
+        width: 120px;
+        height: 50px;
+        background-color: blueviolet;
+        
+    }
+    /* Crystal Box attributes, holds 4 crystal images */
+    #crystalBox {
+        width: 600px;
+        height: 160px;
+        margin: 5px;
+        
+    }
+
+    /* Crystal 1 image attributes */
+    ._1CrystalImage {
+        height: 75px;
+        width: 75px;
+        
+    }
+    
+    /* Crystal 2 image attributes */
+    ._2CrystalImage {
+        height: 75px;
+        width: 75px;
+        margin: 0px;
+    }
+
+    /* Crystal 3 image attributes */
+    ._3CrystalImage {
+        height: 75px;
+        width: 75px;
+    }
+
+    /* Crystal 4 image attributes */
+    ._4CrystalImage {
+        height: 75px;
+        width: 75px;
+    }
+
+    /* Score Meaggage box attributes */
+    #scoreMessageText {
+        width: 150px;
+        height: 25px;
+        background-color: aqua;
+        margin: 5px;
+    }
+
+    /* Player score text box attributes */    
+    #playerScoreTextBox {
+        width: 150px;
+        height: 50px;
+        background-color: aqua;
+        margin: 5px;
+
+}
