@@ -68,8 +68,7 @@ function testForWinOrLost() {
         // Start game over
         computerRandomNumberAndInializeUI();
         crystalValueRandomNumber();
-        mainGameFunction();
-
+        
     }
     if (playerTotalScore === computerRandomNumberPick) {
         wins += 1;
@@ -78,8 +77,7 @@ function testForWinOrLost() {
         // Start game over
         computerRandomNumberAndInializeUI();
         crystalValueRandomNumber();
-        mainGameFunction();
-
+        
     }
 }
 
